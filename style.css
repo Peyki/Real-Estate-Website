@@ -1,0 +1,269 @@
+body {
+  background-color:white;
+   font-family: 'Open Sans', sans-serif;
+   
+
+}
+
+ /* Navigation button */
+.btn-outline-secondary:hover {
+ background-color: rgba(233, 230, 227, 0.619);
+
+}
+
+.btn-outline-secondary {
+    margin-left: 20px;
+    
+}
+.navbar-1 {
+    background-color: rgba(245, 203, 37, 0.749);
+}
+
+.navbar>.container-lg, .navbar>.container-xl, .navbar>.container-xxl {
+    max-height: 125px;
+}
+
+ /* End of Navigation */
+
+
+.container {
+     
+    width: auto;
+      /* hero kismi yarim gozukuyordu o yuzden bu sekilde yaptim. */
+    
+  }
+
+  /* Heroes kisminda kullandim */
+
+.lead {
+    margin-top: 50px;
+   align-items: center;
+
+}
+
+/* Search button starts */
+
+.crd {
+    box-shadow: 5px 5px 5px rgba(36, 35, 35, 0.749);
+}
+
+select {
+    height: 40px;
+    width: 90%;
+    outline: none;
+    padding: 0 20px;
+
+}
+
+
+span {
+    color: grey;
+    font-weight: 600;
+}
+
+
+.btn-1{
+background-color: rgb(242, 201, 19);
+color: black;
+outline: none;
+border: none;
+width: 90%;
+margin-top: 32px;
+
+}
+
+.btn-1:hover{
+    background-color: rgba(242, 201, 19, 0.44);
+    transition: 0.5s;
+}
+
+/* Search button ends */
+
+h5 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.card-group {
+    box-shadow: 5px 5px 5px rgba(36, 35, 35, 0.749);   
+}
+
+.card-option {
+    padding: 80px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    box-shadow: 5px 5px 5px rgba(36, 35, 35, 0.749);
+    background-image: url(images/search.jpg);
+    background-position:center;
+    background-size: cover;
+    color:white;
+    min-height: 300px;
+    width: 100%;
+   
+}
+
+
+.cards {
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   
+    
+
+}
+
+.card1 {
+    background-image: url(images/house.jpg);
+    background-position: bottom;
+    background-size: cover;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 5px rgba(36, 35, 35, 0.749);
+    padding-top: 70px;
+}
+
+.card2 {
+    background-image: url(images/land.jpg);
+    background-position: bottom;
+    background-size: cover;
+
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 5px rgba(36, 35, 35, 0.749);
+    padding-top: 70px;
+
+}
+.card3 {
+    background-image: url(images/office-2.jpg);
+    background-position: bottom;
+    background-size: cover;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 5px rgba(36, 35, 35, 0.749);
+    padding-top: 70px;
+}
+
+
+h2 {
+    font-size: 3rem; /* 32px/16px=2rem */
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+
+}
+
+
+p {
+   
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+ a:hover {
+     color:rgb(204, 189, 30);
+     transition: 0.5s;
+ }
+
+footer {
+    background-color: rgba(218, 181, 35, 0.749);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Contact Us page */
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.main2 {
+    min-height: 300px;
+    padding-top: 50px;
+
+}
+
+.inputwrapper {
+    margin-bottom: 20px;
+    
+   
+
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px; /* padding yaptim ve first name and email kutucuklari kalinlasti ve kutu halini aldi.*/
+    width: 100%; /* kutularin uzunlugunu ayarliyor*/
+    font-family:'Roboto', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+
+}
+.mybutton {
+    background-color: white;
+    color:rgba(218, 181, 35, 0.749);;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 40px ;
+    border-radius: 2px;
+    box-shadow: 3px 3px 5px rgba(46, 44, 44, 0.166);
+    margin-bottom: 30px;
+}
+a.mybutton {
+
+    display: inline-block;
+    margin-top: 1
+    0px;
+
+}
+
+.mybutton:hover {
+    background-color:rgba(218, 181, 35, 0.749);;
+    transition-duration: 1s;
+}
+
+.newline {
+
+    display: block;
+    margin-bottom: 10px;
+    }
+
+ /* contact-us page ends */
+
+ 
+ 
+    /* Page info */
+
+
+    .info-box {
+      
+        width: 100%;
+     
+        box-shadow: 5px 5px 5px rgba(36, 35, 35, 0.749);
+
+
+
+}
+    .info-box1 {
+        min-height: 300px;
+        width: 100%;
+        margin-top: 50px;
+        box-shadow: 5px 5px 5px rgba(36, 35, 35, 0.749);
+       
+    }
+
+    
+
+      /* page info ends */
+    
